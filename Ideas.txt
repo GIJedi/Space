@@ -1,0 +1,6 @@
+for AI, if trying to avoid direction ships, you can calculate which way it should go by 
+adding up the strength distance values
+strength distance for a ship can be strength * 1/distance. This will provide incentives for ships that are trying to get
+away from combat to flee in the safest direction possible(so a 3 units up and 4 units to the right with a strnength of 12 to
+to make this easy will set a strength distance of 4 for up and 3 for up and 3 for right, enticing the ship to go down as its 
+away from the highest number)
